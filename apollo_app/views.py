@@ -10,3 +10,6 @@ def index(request):
 
 def safe_a(request):
     return HttpResponse("实现了A等级安全级别")
+
+def safe_b(request):
+    return HttpResponse("实现B级别的安全等级")
