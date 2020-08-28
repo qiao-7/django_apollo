@@ -4,3 +4,6 @@ from django.shortcuts import render,HttpResponse
 
 def login(request):
     return HttpResponse("login")
+
+def safe_a(request):
+    return HttpResponse("实现了A等级安全级别")
