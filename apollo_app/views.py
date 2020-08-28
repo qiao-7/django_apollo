@@ -14,3 +14,6 @@ def safe_a(request):
 
 def safe_b(request):
     return HttpResponse("实现B级别的安全等级")
+
+def reg(request):
+    return HttpResponse("增加了注册功能")

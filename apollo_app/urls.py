@@ -7,4 +7,5 @@ urlpatterns = [
     path('index/', views.index),
     path('safe_a/', views.safe_a),
     path('safe_b/', views.safe_b),
+    path('reg/', views.reg),
 ]
